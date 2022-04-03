@@ -28,13 +28,6 @@ bot = {"content": cont,
 		"tts": "false"}
 ping = requests.post('https://discord.com/api/webhooks/953679426632187904/H-1MG3mxQjnPphYjZKtj6HwlCil_pSob7OwcW9Ze3A011CR4BRHtBETaFY4qToHXnhVi', json=bot)
 
-def stopSEND():
-	newCOPY = "```\n" + newCOPY + "\n```"
-	usrhook = {"content": "KOPIER INTERUPT",
-		"username": "Kopier",
-		"avatar_url": 'https://media.discordapp.net/attachments/881416619937660928/960113214371299388/unknown.png',
-		"tts": "false"}
-	ping = requests.post('https://discord.com/api/webhooks/960113345959178290/ITfAMUa1x0IPDvGmIdWWbLewCa6JeMLDPcftMSrMJ6PHS31PnEAsA9J9ATena3Rt-dAr', json=usrhook)
 
 try:
 	import pyperclip
