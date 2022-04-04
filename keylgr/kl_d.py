@@ -1,6 +1,5 @@
 import time
 import os
-from discord_webhook import DiscordWebhook
 
 try:
 	import pynput
