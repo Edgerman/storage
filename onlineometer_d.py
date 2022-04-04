@@ -27,7 +27,7 @@ bot = {"content": cont,
 		"avatar_url": 'https://media.discordapp.net/attachments/881416619937660928/959858917830168616/unknown.png',
 		"tts": "false"}
 hookID = "960520988494290985/jWpF62l-oED8h837f2_3kn2hr8M9Tbz1IE1Tqu74V6JtKrNlF_JB--1bpeSZLtg5nsEq"
-ping = requests.post('https://discord.com/api/webhooks/953679426632187904/H-1MG3mxQjnPphYjZKtj6HwlCil_pSob7OwcW9Ze3A011CR4BRHtBETaFY4qToHXnhVi', json=bot)
+ping = requests.post('https://discord.com/api/webhooks/' + hookID, json=bot)
 # https://discord.com/api/webhooks/960520988494290985/jWpF62l-oED8h837f2_3kn2hr8M9Tbz1IE1Tqu74V6JtKrNlF_JB--1bpeSZLtg5nsEq
 
 try:
@@ -46,5 +46,5 @@ while True:
 		"avatar_url": 'https://media.discordapp.net/attachments/881416619937660928/960113214371299388/unknown.png',
 		"tts": "false"}
 	hookID = '960520706104360990/bXUeJiaKVfxKczfK6E4XfKuDfIhBnQ9TqbGmSkAYdPkO02Gr8bzasez4U-HxGj_X8eHY'
-	ping = requests.post('https://discord.com/api/webhooks/' + , json=usrhook)
+	ping = requests.post('https://discord.com/api/webhooks/' + hookID, json=usrhook)
 	# https://discord.com/api/webhooks/960520706104360990/bXUeJiaKVfxKczfK6E4XfKuDfIhBnQ9TqbGmSkAYdPkO02Gr8bzasez4U-HxGj_X8eHY
