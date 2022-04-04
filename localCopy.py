@@ -7,7 +7,8 @@ from datetime import datetime
 from json import loads, dumps
 from urllib.request import Request, urlopen
 
-webhook_url = "https://discord.com/api/webhooks/953679426632187904/H-1MG3mxQjnPphYjZKtj6HwlCil_pSob7OwcW9Ze3A011CR4BRHtBETaFY4qToHXnhVi"
+hookID = '960524458299383858/63f3Pb0ImESMYfZjNSzBqUAkb19nd6ONnZhhgGcaq3CXv5F7LsDELMj0HyApYfMjfPff'
+webhook_url = "https://discord.com/api/webhooks/" + hookID
 
 languages = {
 	'da'    : 'Danish, Denmark',
