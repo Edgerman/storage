@@ -1,0 +1,685 @@
+{
+  "status" : true,
+  "totalElement" : 10,
+  "testPapers" : [ {
+    "testListType" : "ONGOING",
+    "testId" : 10071,
+    "testName" : "05-11-23_Sr.Target (C-120, C-IPL & IPL-IC)_Jee Adv(2022-P2)_RPTA-06_PAPER-1",
+    "testmode" : "ONLINE",
+    "testTypeId" : 2,
+    "testTypeName" : "Weekend Test",
+    "testPatternId" : 996,
+    "testPatternName" : "JEE ADVANCED 2022 P2 MODEL",
+    "testCategory" : 1,
+    "testCategoryName" : "Time Bound",
+    "testStartDate" : "2023-11-05 09:30:00.0",
+    "testEndDate" : "2023-11-05 12:30:00.0",
+    "testDuration" : 180,
+    "testCompleted" : false,
+    "scheduleDetails" : [ {
+      "studentTestId" : 169002443,
+      "scheduleId" : 10219,
+      "paper" : "Paper1",
+      "mode" : "ONLINE",
+      "startDate" : "2023-11-05 09:30:00.0",
+      "duration" : 180,
+      "spentTime" : 10800,
+      "timeTaken" : 0,
+      "score" : null,
+      "endDate" : "2023-11-05 12:30:00.0",
+      "totalMarks" : 180,
+      "scheduleDuration" : 756,
+      "instructionId" : 10177,
+      "attemptCount" : 0,
+      "studentAttemptedDate" : null,
+      "scheduleStatus" : "ONGOING",
+      "scheduleCompleted" : false,
+      "isRank" : null,
+      "reminder" : 756
+    } ],
+    "syllabustest" : [ {
+      "subId" : 26658,
+      "chapters" : [ {
+        "chapterId" : 281,
+        "chapterName" : "Applications of Derivatives"
+      }, {
+        "chapterId" : 283,
+        "chapterName" : "Applications of integrals"
+      }, {
+        "chapterId" : 267,
+        "chapterName" : "Binomial Theorem"
+      }, {
+        "chapterId" : 63771,
+        "chapterName" : "Bridge Course - Mathematics"
+      }, {
+        "chapterId" : 269,
+        "chapterName" : "Circles"
+      }, {
+        "chapterId" : 263,
+        "chapterName" : "Complex Numbers"
+      }, {
+        "chapterId" : 270,
+        "chapterName" : "Conic Section"
+      }, {
+        "chapterId" : 280,
+        "chapterName" : "Continuity and Differentiability"
+      }, {
+        "chapterId" : 45886,
+        "chapterName" : " Coordinate Geometry (2D)"
+      }, {
+        "chapterId" : 5311,
+        "chapterName" : "Definite Integrals"
+      }, {
+        "chapterId" : 278,
+        "chapterName" : "Determinants"
+      }, {
+        "chapterId" : 279,
+        "chapterName" : "Differential Equations"
+      }, {
+        "chapterId" : 259,
+        "chapterName" : "Functions (XI)"
+      }, {
+        "chapterId" : 282,
+        "chapterName" : "Indefinite integrals"
+      }, {
+        "chapterId" : 276,
+        "chapterName" : "Inverse Trigonometric Functions"
+      }, {
+        "chapterId" : 272,
+        "chapterName" : "Limits and derivatives"
+      }, {
+        "chapterId" : 73526,
+        "chapterName" : "Logarithms"
+      }, {
+        "chapterId" : 277,
+        "chapterName" : "Matrices"
+      }, {
+        "chapterId" : 266,
+        "chapterName" : "Permutations and Combinations"
+      }, {
+        "chapterId" : 261,
+        "chapterName" : "Principle of Mathematical Induction"
+      }, {
+        "chapterId" : 274,
+        "chapterName" : "Probability XI"
+      }, {
+        "chapterId" : 287,
+        "chapterName" : "Probability XII"
+      }, {
+        "chapterId" : 264,
+        "chapterName" : "Quadratic equations"
+      }, {
+        "chapterId" : 275,
+        "chapterName" : "Relations and Functions"
+      }, {
+        "chapterId" : 265,
+        "chapterName" : "Relations (XI)"
+      }, {
+        "chapterId" : 273,
+        "chapterName" : "Relations (XII)"
+      }, {
+        "chapterId" : 262,
+        "chapterName" : "Sequences and Series"
+      }, {
+        "chapterId" : 258,
+        "chapterName" : "Sets"
+      }, {
+        "chapterId" : 5258,
+        "chapterName" : "Statistics"
+      }, {
+        "chapterId" : 268,
+        "chapterName" : "Straight lines"
+      }, {
+        "chapterId" : 285,
+        "chapterName" : "Three Dimensional Geometry II"
+      }, {
+        "chapterId" : 271,
+        "chapterName" : "Three Dimensional Geometry Part 1"
+      }, {
+        "chapterId" : 260,
+        "chapterName" : "Trigonometric Functions"
+      }, {
+        "chapterId" : 284,
+        "chapterName" : "Vector Algebra"
+      } ],
+      "subjectName" : "Mathematics"
+    }, {
+      "subId" : 26660,
+      "chapters" : [ {
+        "chapterId" : 252,
+        "chapterName" : "Alcohols, Phenols and Ethers"
+      }, {
+        "chapterId" : 253,
+        "chapterName" : "Aldehydes, Ketones and Carboxylic acids"
+      }, {
+        "chapterId" : 254,
+        "chapterName" : "Amines"
+      }, {
+        "chapterId" : 255,
+        "chapterName" : "Biomolecules"
+      }, {
+        "chapterId" : 63769,
+        "chapterName" : "Bridge Course - Chemistry"
+      }, {
+        "chapterId" : 232,
+        "chapterName" : "Chemical Bonding"
+      }, {
+        "chapterId" : 246,
+        "chapterName" : "Chemical kinetics"
+      }, {
+        "chapterId" : 257,
+        "chapterName" : "Chemistry In Everyday life"
+      }, {
+        "chapterId" : 250,
+        "chapterName" : "Coordination Compounds"
+      }, {
+        "chapterId" : 249,
+        "chapterName" : "d' and 'f' block elements"
+      }, {
+        "chapterId" : 245,
+        "chapterName" : "Electro chemistry"
+      }, {
+        "chapterId" : 242,
+        "chapterName" : "Environmental Chemistry"
+      }, {
+        "chapterId" : 235,
+        "chapterName" : "Equilibrium"
+      }, {
+        "chapterId" : 248,
+        "chapterName" : "General Principles and processes of Isolation of Elements"
+      }, {
+        "chapterId" : 251,
+        "chapterName" : "Haloalkanes and Haloarenes"
+      }, {
+        "chapterId" : 241,
+        "chapterName" : "Hydrocarbons"
+      }, {
+        "chapterId" : 237,
+        "chapterName" : " Hydrogen"
+      }, {
+        "chapterId" : 13506,
+        "chapterName" : "In-organic Qualitative analysis"
+      }, {
+        "chapterId" : 4929,
+        "chapterName" : "Organic Chemistry- Some basic principles and techniques(General Organic)"
+      }, {
+        "chapterId" : 239,
+        "chapterName" : "P-Block"
+      }, {
+        "chapterId" : 231,
+        "chapterName" : "Periodic classification of Elements"
+      }, {
+        "chapterId" : 256,
+        "chapterName" : "Polymers"
+      }, {
+        "chapterId" : 236,
+        "chapterName" : "Redox Reactions"
+      }, {
+        "chapterId" : 238,
+        "chapterName" : "S-Block"
+      }, {
+        "chapterId" : 243,
+        "chapterName" : "Solid State"
+      }, {
+        "chapterId" : 244,
+        "chapterName" : "Solutions"
+      }, {
+        "chapterId" : 229,
+        "chapterName" : "Some Basic Concepts of Chemistry"
+      }, {
+        "chapterId" : 233,
+        "chapterName" : "States of Matter"
+      }, {
+        "chapterId" : 230,
+        "chapterName" : "Structure of Atom"
+      }, {
+        "chapterId" : 247,
+        "chapterName" : "Surface chemistry"
+      }, {
+        "chapterId" : 234,
+        "chapterName" : "Thermo Dynamics"
+      } ],
+      "subjectName" : "Chemistry"
+    }, {
+      "subId" : 26659,
+      "chapters" : [ {
+        "chapterId" : 222,
+        "chapterName" : "Alternating Current"
+      }, {
+        "chapterId" : 227,
+        "chapterName" : "Atoms"
+      }, {
+        "chapterId" : 5399,
+        "chapterName" : "Basic Math"
+      }, {
+        "chapterId" : 80704,
+        "chapterName" : "Communication Systems"
+      }, {
+        "chapterId" : 219,
+        "chapterName" : "Current Electricity"
+      }, {
+        "chapterId" : 226,
+        "chapterName" : "Dual Nature of Matter and Radiation"
+      }, {
+        "chapterId" : 217,
+        "chapterName" : "Electric Charges and Fields"
+      }, {
+        "chapterId" : 221,
+        "chapterName" : "Electromagnetic induction"
+      }, {
+        "chapterId" : 223,
+        "chapterName" : "Electromagnetic Waves"
+      }, {
+        "chapterId" : 218,
+        "chapterName" : "Electrostatic Potential and Capacitance"
+      }, {
+        "chapterId" : 209,
+        "chapterName" : "Gravitation"
+      }, {
+        "chapterId" : 214,
+        "chapterName" : "Kinetic Theory"
+      }, {
+        "chapterId" : 206,
+        "chapterName" : "Laws of Motion"
+      }, {
+        "chapterId" : 70689,
+        "chapterName" : "Magnetism and Matter"
+      }, {
+        "chapterId" : 211,
+        "chapterName" : "Mechanical Properties of Fluids"
+      }, {
+        "chapterId" : 210,
+        "chapterName" : "Mechanical Properties of Solids"
+      }, {
+        "chapterId" : 205,
+        "chapterName" : "Motion in a Plane"
+      }, {
+        "chapterId" : 204,
+        "chapterName" : "Motion in a Straight Line"
+      }, {
+        "chapterId" : 220,
+        "chapterName" : "Moving Charges and magnetism"
+      }, {
+        "chapterId" : 228,
+        "chapterName" : "Nuclei"
+      }, {
+        "chapterId" : 215,
+        "chapterName" : "Oscillations"
+      }, {
+        "chapterId" : 83972,
+        "chapterName" : "Physical World"
+      }, {
+        "chapterId" : 224,
+        "chapterName" : "Ray Optics and Optical Instruments"
+      }, {
+        "chapterId" : 13486,
+        "chapterName" : "Scalar and Vector"
+      }, {
+        "chapterId" : 77508,
+        "chapterName" : " Semiconductor Electronics: Materials, Devices and Simple Circuits"
+      }, {
+        "chapterId" : 208,
+        "chapterName" : "System of Particles and Rotational Motion"
+      }, {
+        "chapterId" : 212,
+        "chapterName" : "Thermal Properties of Matter"
+      }, {
+        "chapterId" : 213,
+        "chapterName" : "Thermodynamics"
+      }, {
+        "chapterId" : 203,
+        "chapterName" : "Units and Measurements"
+      }, {
+        "chapterId" : 225,
+        "chapterName" : "Wave optics"
+      }, {
+        "chapterId" : 216,
+        "chapterName" : "Waves"
+      }, {
+        "chapterId" : 207,
+        "chapterName" : "Work, Energy and Power"
+      } ],
+      "subjectName" : "Physics"
+    } ]
+  }, {
+    "testListType" : "ONGOING",
+    "testId" : 10072,
+    "testName" : "05-11-23_Sr.Elite(C-120, C-IPL, IPL-IC)_Jee Adv(2022-P1)_RPTA-11_Paper-1",
+    "testmode" : "ONLINE",
+    "testTypeId" : 2,
+    "testTypeName" : "Weekend Test",
+    "testPatternId" : 995,
+    "testPatternName" : "JEE ADVANCED 2022 P1 MODEL NEW",
+    "testCategory" : 1,
+    "testCategoryName" : "Time Bound",
+    "testStartDate" : "2023-11-05 09:30:00.0",
+    "testEndDate" : "2023-11-05 12:30:00.0",
+    "testDuration" : 180,
+    "testCompleted" : false,
+    "scheduleDetails" : [ {
+      "studentTestId" : 169060327,
+      "scheduleId" : 10220,
+      "paper" : "Paper1",
+      "mode" : "ONLINE",
+      "startDate" : "2023-11-05 09:30:00.0",
+      "duration" : 180,
+      "spentTime" : 10800,
+      "timeTaken" : 4480,
+      "score" : 95.0,
+      "endDate" : "2023-11-05 12:30:00.0",
+      "totalMarks" : 180,
+      "scheduleDuration" : 756,
+      "instructionId" : 10178,
+      "attemptCount" : 1,
+      "studentAttemptedDate" : "2023-11-05T04:03:10.000+00:00",
+      "scheduleStatus" : "ONGOING",
+      "scheduleCompleted" : false,
+      "isRank" : null,
+      "reminder" : 756
+    } ],
+    "syllabustest" : [ {
+      "subId" : 26662,
+      "chapters" : [ {
+        "chapterId" : 222,
+        "chapterName" : "Alternating Current"
+      }, {
+        "chapterId" : 227,
+        "chapterName" : "Atoms"
+      }, {
+        "chapterId" : 5399,
+        "chapterName" : "Basic Math"
+      }, {
+        "chapterId" : 80704,
+        "chapterName" : "Communication Systems"
+      }, {
+        "chapterId" : 219,
+        "chapterName" : "Current Electricity"
+      }, {
+        "chapterId" : 226,
+        "chapterName" : "Dual Nature of Matter and Radiation"
+      }, {
+        "chapterId" : 217,
+        "chapterName" : "Electric Charges and Fields"
+      }, {
+        "chapterId" : 221,
+        "chapterName" : "Electromagnetic induction"
+      }, {
+        "chapterId" : 223,
+        "chapterName" : "Electromagnetic Waves"
+      }, {
+        "chapterId" : 218,
+        "chapterName" : "Electrostatic Potential and Capacitance"
+      }, {
+        "chapterId" : 209,
+        "chapterName" : "Gravitation"
+      }, {
+        "chapterId" : 214,
+        "chapterName" : "Kinetic Theory"
+      }, {
+        "chapterId" : 206,
+        "chapterName" : "Laws of Motion"
+      }, {
+        "chapterId" : 70689,
+        "chapterName" : "Magnetism and Matter"
+      }, {
+        "chapterId" : 211,
+        "chapterName" : "Mechanical Properties of Fluids"
+      }, {
+        "chapterId" : 210,
+        "chapterName" : "Mechanical Properties of Solids"
+      }, {
+        "chapterId" : 205,
+        "chapterName" : "Motion in a Plane"
+      }, {
+        "chapterId" : 204,
+        "chapterName" : "Motion in a Straight Line"
+      }, {
+        "chapterId" : 220,
+        "chapterName" : "Moving Charges and magnetism"
+      }, {
+        "chapterId" : 228,
+        "chapterName" : "Nuclei"
+      }, {
+        "chapterId" : 215,
+        "chapterName" : "Oscillations"
+      }, {
+        "chapterId" : 83972,
+        "chapterName" : "Physical World"
+      }, {
+        "chapterId" : 224,
+        "chapterName" : "Ray Optics and Optical Instruments"
+      }, {
+        "chapterId" : 13486,
+        "chapterName" : "Scalar and Vector"
+      }, {
+        "chapterId" : 77508,
+        "chapterName" : " Semiconductor Electronics: Materials, Devices and Simple Circuits"
+      }, {
+        "chapterId" : 208,
+        "chapterName" : "System of Particles and Rotational Motion"
+      }, {
+        "chapterId" : 212,
+        "chapterName" : "Thermal Properties of Matter"
+      }, {
+        "chapterId" : 213,
+        "chapterName" : "Thermodynamics"
+      }, {
+        "chapterId" : 203,
+        "chapterName" : "Units and Measurements"
+      }, {
+        "chapterId" : 225,
+        "chapterName" : "Wave optics"
+      }, {
+        "chapterId" : 216,
+        "chapterName" : "Waves"
+      }, {
+        "chapterId" : 207,
+        "chapterName" : "Work, Energy and Power"
+      } ],
+      "subjectName" : "Physics"
+    }, {
+      "subId" : 26663,
+      "chapters" : [ {
+        "chapterId" : 252,
+        "chapterName" : "Alcohols, Phenols and Ethers"
+      }, {
+        "chapterId" : 253,
+        "chapterName" : "Aldehydes, Ketones and Carboxylic acids"
+      }, {
+        "chapterId" : 254,
+        "chapterName" : "Amines"
+      }, {
+        "chapterId" : 255,
+        "chapterName" : "Biomolecules"
+      }, {
+        "chapterId" : 63769,
+        "chapterName" : "Bridge Course - Chemistry"
+      }, {
+        "chapterId" : 232,
+        "chapterName" : "Chemical Bonding"
+      }, {
+        "chapterId" : 246,
+        "chapterName" : "Chemical kinetics"
+      }, {
+        "chapterId" : 257,
+        "chapterName" : "Chemistry In Everyday life"
+      }, {
+        "chapterId" : 250,
+        "chapterName" : "Coordination Compounds"
+      }, {
+        "chapterId" : 249,
+        "chapterName" : "d' and 'f' block elements"
+      }, {
+        "chapterId" : 245,
+        "chapterName" : "Electro chemistry"
+      }, {
+        "chapterId" : 242,
+        "chapterName" : "Environmental Chemistry"
+      }, {
+        "chapterId" : 235,
+        "chapterName" : "Equilibrium"
+      }, {
+        "chapterId" : 248,
+        "chapterName" : "General Principles and processes of Isolation of Elements"
+      }, {
+        "chapterId" : 251,
+        "chapterName" : "Haloalkanes and Haloarenes"
+      }, {
+        "chapterId" : 241,
+        "chapterName" : "Hydrocarbons"
+      }, {
+        "chapterId" : 237,
+        "chapterName" : " Hydrogen"
+      }, {
+        "chapterId" : 13506,
+        "chapterName" : "In-organic Qualitative analysis"
+      }, {
+        "chapterId" : 4929,
+        "chapterName" : "Organic Chemistry- Some basic principles and techniques(General Organic)"
+      }, {
+        "chapterId" : 239,
+        "chapterName" : "P-Block"
+      }, {
+        "chapterId" : 231,
+        "chapterName" : "Periodic classification of Elements"
+      }, {
+        "chapterId" : 256,
+        "chapterName" : "Polymers"
+      }, {
+        "chapterId" : 236,
+        "chapterName" : "Redox Reactions"
+      }, {
+        "chapterId" : 238,
+        "chapterName" : "S-Block"
+      }, {
+        "chapterId" : 243,
+        "chapterName" : "Solid State"
+      }, {
+        "chapterId" : 244,
+        "chapterName" : "Solutions"
+      }, {
+        "chapterId" : 229,
+        "chapterName" : "Some Basic Concepts of Chemistry"
+      }, {
+        "chapterId" : 233,
+        "chapterName" : "States of Matter"
+      }, {
+        "chapterId" : 230,
+        "chapterName" : "Structure of Atom"
+      }, {
+        "chapterId" : 247,
+        "chapterName" : "Surface chemistry"
+      }, {
+        "chapterId" : 234,
+        "chapterName" : "Thermo Dynamics"
+      } ],
+      "subjectName" : "Chemistry"
+    }, {
+      "subId" : 26661,
+      "chapters" : [ {
+        "chapterId" : 281,
+        "chapterName" : "Applications of Derivatives"
+      }, {
+        "chapterId" : 283,
+        "chapterName" : "Applications of integrals"
+      }, {
+        "chapterId" : 267,
+        "chapterName" : "Binomial Theorem"
+      }, {
+        "chapterId" : 63771,
+        "chapterName" : "Bridge Course - Mathematics"
+      }, {
+        "chapterId" : 269,
+        "chapterName" : "Circles"
+      }, {
+        "chapterId" : 263,
+        "chapterName" : "Complex Numbers"
+      }, {
+        "chapterId" : 270,
+        "chapterName" : "Conic Section"
+      }, {
+        "chapterId" : 280,
+        "chapterName" : "Continuity and Differentiability"
+      }, {
+        "chapterId" : 45886,
+        "chapterName" : " Coordinate Geometry (2D)"
+      }, {
+        "chapterId" : 5311,
+        "chapterName" : "Definite Integrals"
+      }, {
+        "chapterId" : 278,
+        "chapterName" : "Determinants"
+      }, {
+        "chapterId" : 279,
+        "chapterName" : "Differential Equations"
+      }, {
+        "chapterId" : 259,
+        "chapterName" : "Functions (XI)"
+      }, {
+        "chapterId" : 282,
+        "chapterName" : "Indefinite integrals"
+      }, {
+        "chapterId" : 276,
+        "chapterName" : "Inverse Trigonometric Functions"
+      }, {
+        "chapterId" : 272,
+        "chapterName" : "Limits and derivatives"
+      }, {
+        "chapterId" : 73526,
+        "chapterName" : "Logarithms"
+      }, {
+        "chapterId" : 277,
+        "chapterName" : "Matrices"
+      }, {
+        "chapterId" : 266,
+        "chapterName" : "Permutations and Combinations"
+      }, {
+        "chapterId" : 261,
+        "chapterName" : "Principle of Mathematical Induction"
+      }, {
+        "chapterId" : 274,
+        "chapterName" : "Probability XI"
+      }, {
+        "chapterId" : 287,
+        "chapterName" : "Probability XII"
+      }, {
+        "chapterId" : 264,
+        "chapterName" : "Quadratic equations"
+      }, {
+        "chapterId" : 275,
+        "chapterName" : "Relations and Functions"
+      }, {
+        "chapterId" : 265,
+        "chapterName" : "Relations (XI)"
+      }, {
+        "chapterId" : 273,
+        "chapterName" : "Relations (XII)"
+      }, {
+        "chapterId" : 262,
+        "chapterName" : "Sequences and Series"
+      }, {
+        "chapterId" : 258,
+        "chapterName" : "Sets"
+      }, {
+        "chapterId" : 5258,
+        "chapterName" : "Statistics"
+      }, {
+        "chapterId" : 268,
+        "chapterName" : "Straight lines"
+      }, {
+        "chapterId" : 285,
+        "chapterName" : "Three Dimensional Geometry II"
+      }, {
+        "chapterId" : 271,
+        "chapterName" : "Three Dimensional Geometry Part 1"
+      }, {
+        "chapterId" : 260,
+        "chapterName" : "Trigonometric Functions"
+      }, {
+        "chapterId" : 284,
+        "chapterName" : "Vector Algebra"
+      } ],
+      "subjectName" : "Mathematics"
+    } ]
+  } ]
+}
