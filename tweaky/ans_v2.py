@@ -4,8 +4,8 @@ import requests
 # test_id = 152779160
 # bear_id = "eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIyMjQzMDE2NzYiLCJUZW5hbnRJZCI6MiwiUm9sZU5hbWUiOiJTdHVkZW50IiwiREJJZCI6IjM0NDU4NzQiLCJGaXJzdE5hbWUiOiJBQUtBU0giLCJUZW5hbnRDb2RlIjoic3JpY2hhaXRhbnlhIiwiTGFzdE5hbWUiOiJBIiwiZXhwIjoxNjk4OTQyNTg4LCJSb2xlSWQiOiIxIiwiaWF0IjoxNjk4ODU2MTg4fQ.sJ7nYp_BeQ9VqaqJpFDgpFmPvipqdaCFBgqTB8SuE20"
 
-test_id = input("Test_id >>> ")
-bear_id = input("Bear_id >>> ")
+test_id = 171672561
+bear_id = "eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIyMjQzMDE2NzYiLCJUZW5hbnRJZCI6MiwiUm9sZU5hbWUiOiJTdHVkZW50IiwiREJJZCI6IjM0NDU4NzQiLCJGaXJzdE5hbWUiOiJBQUtBU0giLCJUZW5hbnRDb2RlIjoic3JpY2hhaXRhbnlhIiwiTGFzdE5hbWUiOiJBIiwiZXhwIjoxNzAwMzA3ODUxLCJSb2xlSWQiOiIxIiwiaWF0IjoxNzAwMjIxNDUxfQ.l-KXs-y22EgyxZfZjjbxr2DKmzRKfEYzvMymq-qu4fw"
 
 def parseit(js):
 	print('\n\n',js['testName'])
@@ -45,7 +45,10 @@ print("Status Code:", response.status_code)
 
 if response.status_code==200:
 	print('Json extraction initiated')
-	parseit(json.loads(response.text))
+	try:
+		parseit(json.loads(response.text))
+	except:
+		print("Response Content:", response.text)
 elif response.status_code==401:
 	print("Response Content:", response.text)
 
