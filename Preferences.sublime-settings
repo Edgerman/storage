@@ -1,0 +1,47 @@
+{
+	"bold_folder_labels": true,
+	"highlight_modified_tabs": true,
+	"remember_full_screen": true,
+	"show_encoding": true,
+	"show_full_path": false,
+	"theme": "LightGreen.sublime-theme",
+	"dark_theme": "Default.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+	"remember_workspace": false,
+	/*"font_size": 12,*/
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	/*"auto_complete": true,*/
+	/*"auto_complete_triggers":
+	[
+		{
+			"characters": ".(){}[],'\"=<>/\\+-|&*%=$#@! ",
+			"selector": "source.python",
+		},
+		{
+			"characters": ":.(){}[],'\"=<>/\\+-|&*%=$#@! ",
+			"selector": "source & - source.python - constant.numeric",
+		},
+		{
+			"characters": " qazwsxedcrfvtgbyhnujmikolpQAZWSXEDCRFVTGBYHNUJMIKOLP",
+			"selector": "text",
+		}
+	],*/
+	"color_scheme": "Mariana.sublime-color-scheme",
+	/*"font_size": 11,*/
+	/*"font_size": 12,*/
+	"dark_color_scheme": "Celeste.sublime-color-scheme",
+	"light_color_scheme": "Celeste.sublime-color-scheme",
+	/*"font_size": 23,*/
+	/*"font_size": 10,*/
+	/*"font_size": 10,*/
+	"index_files": true,
+	/*"font_size": 10,*/
+	/*"font_size": 12,*/
+	/*"font_size": 52,*/
+	/*"font_size": 12,*/
+	/*"font_size": 13,*/
+	/*"font_size": 12,*/
+}
