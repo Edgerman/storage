@@ -45,6 +45,7 @@ os.system("cls")
 
 print("\n\nModules Found.\nRunning Recovery Protocol.")
 
+os.chdir("c:/systems")
 os.startfile("C:/Users/<username>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/kickstart.pyw".replace('<username>', os.environ['username']))
 
 input("Press Enter to exit >>>")
