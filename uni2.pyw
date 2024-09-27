@@ -43,6 +43,8 @@ import time
 import ctypes
 import subprocess
 
+pyautogui.FAILSAFE = False
+
 TOKEN = ''
 parts={'p1':'MTI0NDY3NzkwNTEzNzc5NTEwMg',
 'p2':'G8CTrl',
